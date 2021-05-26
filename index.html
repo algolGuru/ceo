@@ -24,7 +24,18 @@
                         <a class="nav_link std_text" href="personalData.html" rel="noopener noreferrer">Личные данные</a>
                     </nav>
                     <div class="log_in">
-                        <button class="login_button">Войти</button>
+                        <button class="login_button"><a href="logIn.html">Войти</a></button>
+                    </div>
+                    <div class="hamburger">
+                        <input id="btn-1" type="checkbox" />
+                        <label for="btn-1">
+                          <span class="hamburger">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                            <span class="cross"></span>
+                          </span>
+                        </label>
                     </div>
                 </div>
             </header>
@@ -46,7 +57,7 @@
                             <span class="option_price">
                                 $100,23
                             </span>
-                            <span class="buy_options_title">текущая стоимость опциона</span>
+                            <span class="buy_options_title">текущая стоимость CSEO</span>
                         </div>
                         <div class="buy_options">
                             <div class="count_of_buying_options">
@@ -70,12 +81,10 @@
                             <div class="summ_of_buying">
                                 <div class="summ_block">
                                     <span class="summ std_big_text">$8,62</span>
-                                    <span class="sum_subtitle">
-                                        сумма
-                                    </span>
+                                    <span class="sum_subtitle">сумма</span>
                                 </div>
                             </div>
-                            <button class="buy_button std_text">
+                            <button class="buy_button std_text buy_button_desktop">
                                 Купить  опционы 
                             </button>
                         </div>
@@ -88,19 +97,25 @@
                                 <div class="progress">
                                     <div class="progress-done" data-done="90"></div>
                                 </div>
-                                <span class="line_subtitle std_text">Осталось опциона до повышения цены</span>
+                                <span class="line_subtitle std_text line_subtitle_desktop">Осталось CSEO до повышения цены</span>
                             </div>
+                            <span class="line_subtitle std_text line_subtitle_mobile">Осталось CSEO до повышения цены</span>
                         </div>
                         <div class="lost">
-                            <span class="num">322 222</span>
+                            <span class="num std_text">322 222</span>
 
                             <div class="line">
                                 <div class="progress">
                                     <div class="progress-done2" data-done="30"></div>
                                 </div>
-                                <span class="line_subtitle">Осталось опциона в эмисс</span>
+                                <span class="line_subtitle std_text line_subtitle_desktop">Осталось CSEO в эмисс</span>
                             </div>
+                            <span class="line_subtitle std_text line_subtitle_mobile">Осталось CSEO в эмисс</span>
                         </div>
+
+                        <button class="buy_button std_text buy_options_mobile">
+                            Купить  опционы
+                        </button>
                     </div>
                 </div>
             </div>
@@ -161,19 +176,18 @@
                 <div class="advantages_item">
                     <img src="img/grow.png" alt="grow">
                     <p class="std_text">
-                        Гарантирует ежеквартальные выплаты дивидендов (24% годовых).
+                        Даёт возможность планомерного роста актива и получение выгоды с его реализации
                     </p>
                 </div>
                 <div class="advantages_item">
                     <img src="img/capital.png" alt="capital">
                     <p class="std_text">
-                        Гарантирует ежеквартальные выплаты дивидендов (24% годовых).
-                    </p>
+                        Это создание капитала/актива обеспеченного деятельностью компании в виде ее доли.                    </p>
                 </div>
                 <div class="advantages_item">
                     <img src="img/safety.png" alt="wallet">
                     <p class="std_text">
-                        Гарантирует ежеквартальные выплаты дивидендов (24% годовых).
+                        Опционы — это ликвидность актива
                     </p>
                 </div>
             </div>
@@ -228,7 +242,7 @@
     <footer>
         <div class="container">
             <div class="company_name">© 2020 CSE Option </div>
-            <a href="#" class="footer_link">Конфиденциальность</a>
+            <a href="#" class="footer_link secure">Конфиденциальность</a>
             <a href="#" class="footer_link">Условия</a>
         </div>
     </footer>

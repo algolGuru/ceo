@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <title>Transfers</title>
 </head>
 <body>
@@ -36,51 +38,81 @@
             <div class="container">
                 <div class="first_personal_data_row">
                     <div>
-                        <p class="personal_data_key std_text">Id</p>
-                        <p class="personal_data_key std_text">123 312 2</p>
+                        <p class="personal_data_key">Id</p>
+                        <p class="personal_data_value std_text">123 312 2</p>
                     </div>
                     <div>
-                        <p class="personal_data_key std_text">Имя</p>
-                        <p class="personal_data_key std_text">Иванов Иван Иванович</p>
+                        <p class="personal_data_key">Имя</p>
+                        <p class="personal_data_value std_text">Иванов Иван Иванович</p>
                     </div>
                     <div>
-                        <p class="personal_data_key std_text">Дата рождения</p>
-                        <p class="personal_data_key std_text">12.02.1980</p>
+                        <p class="personal_data_key">Дата рождения</p>
+                        <p class="personal_data_value std_text">12.02.1980</p>
                     </div>
                 </div>
                 <div class="second_personal_data_row">
                     <div>
-                        <p class="personal_data_key std_text">Эл. почта</p>
-                        <p class="personal_data_key std_text">ivanov@gmail.com</p></div>
+                        <p class="personal_data_key">Эл. почта</p>
+                        <p class="personal_data_value std_text">ivanov@gmail.com</p></div>
                     <div>
-                        <p class="personal_data_key std_text">Номер телефона</p>
-                        <p class="personal_data_key std_text">+7 906 213 88 22</p></div>
+                        <p class="personal_data_key">Номер телефона</p>
+                        <p class="personal_data_value std_text">+7 906 213 88 22</p></div>
                     <div>
-                        <button class="buy_button">
-                            Купить  опционы
+                        <button class="buy_button change_password_button">
+                            Изменить пароль
                         </button>
                     </div>
                 </div>
-                <div class="change_password">
+                <div class="change_password desktop_change_password">
                     <form class="password_chang">
-                        <div>
-                            <label>
-                                <input  type="text" placeholder="Текущий пароль">
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                <input type="text" placeholder="Новый пароль">
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                <input type="text" placeholder="Новый пароль">
-                            </label>
+                        <div class="password_chang_container">
+                            <div class="input_wrapper">
+                                <span class="input_wrapper_text">Текущий пароль</span>
+                                <label>
+                                    <input class="std_text" type="text">
+                                </label>
+                            </div>
+                            <div class="input_wrapper">
+                                <span class="input_wrapper_text">Новый пароль</span>
+                                <label>
+                                    <input class="std_text" type="text">
+                                </label>
+                            </div>
+                            <div class="input_wrapper">
+                                <span class="input_wrapper_text">Новый пароль</span>
+                                <label>
+                                    <input class="std_text" type="text">
+                                </label>
+                            </div>
                         </div>
                         <button>&#10005;</button>
                     </form>
                 </div>
+            </div>
+            <div class="change_password mobile_change_password">
+                <form class="password_chang">
+                    <div class="password_chang_container">
+                        <div class="input_wrapper">
+                            <span class="input_wrapper_text">Текущий пароль</span>
+                            <label>
+                                <input class="std_text" type="text">
+                            </label>
+                        </div>
+                        <div class="input_wrapper">
+                            <span class="input_wrapper_text">Новый пароль</span>
+                            <label>
+                                <input class="std_text" type="text">
+                            </label>
+                        </div>
+                        <div class="input_wrapper">
+                            <span class="input_wrapper_text">Новый пароль</span>
+                            <label>
+                                <input class="std_text" type="text">
+                            </label>
+                        </div>
+                    </div>
+                    <button>&#10005;</button>
+                </form>
             </div>
         </section>
     </main>

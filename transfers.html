@@ -37,9 +37,12 @@
             <div class="container form_container">
                 <form class="form_transfer">
                     <div>
-                        <label>
-                            <input type="text" placeholder="ID получателя">
-                        </label>
+                        <div class="input_wrapper">
+                            <span class="input_wrapper_text std_text">ID получателя</span>
+                            <label>
+                                <input class="std_text" type="text">
+                            </label>
+                        </div>
                         <div class="alert">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.38">
@@ -49,20 +52,27 @@
                             <p>Убедитесь в корректности логина получателя. После отправки данную процедуру будет невозможно изменить.</p>
                         </div>
                     </div>
-                    <div>
+
+                    <div class="input_wrapper">
+                        <span class="input_wrapper_text std_text">Тип опционов</span>
                         <label>
-                            <input type="text" placeholder="Тип опционов">
+                            <select class="std_text">
+                                <option>102.87 CSEO = $10 (номин. стоимость)</option>
+                                <option>102.87 CSEO = $10 (номин. стоимость)</option>
+                                <option>102.87 CSEO = $10 (номин. стоимость)</option>
+                                <option>102.87 CSEO = $10 (номин. стоимость)</option>
+                            </select>
                         </label>
                     </div>
 
-                    <div>
+                    <div class="input_wrapper">
+                        <span class="input_wrapper_text std_text">Сумма для отправки</span>
                         <label>
-                            <input type="text" placeholder="Сумма для отправки">
+                            <input class="std_text" type="text">
                         </label>
                     </div>
 
                     <div class="buttons">
-
                         <button class="buy_button close_button">
                             &#10005;
                         </button>
