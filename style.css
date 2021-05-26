@@ -1343,8 +1343,29 @@ footer .container {
 }
 
 @media screen and (max-width: 770px) {
+    .buy_button_desktop{
+        display: none;
+    }
+
+    #main_second .container{
+        padding-top: 50%;
+    }
+
+    .buy_options_mobile{
+        display: block;
+    }
+
+    .buy_options_mobile {
+        margin-top: 20px;
+        width: 100%;
+    }
+
     .options_info {
         top: 30px;
+    }
+
+    .count_of_buying_options {
+        width: 50%;
     }
 
     .popup_pay_buttons{
@@ -1484,7 +1505,7 @@ footer .container {
         background-repeat: no-repeat;
         background-position-y: bottom;
         background-position-x: right;
-        height: 125vh;
+        height: 145vh;
         background-color: #20364c;
         background-size: auto;
         background-image: url(img/mobile_login_bg.png);
