@@ -852,10 +852,6 @@ footer .container {
     border-radius: 8px;;
 }
 
-.form_transfer div {
-    margin-bottom: 15px;
-}
-
 .alert {
     display: flex;
     align-items: center;
@@ -1111,6 +1107,23 @@ footer .container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.popup_error{
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 7px 65px rgba(0, 0, 0, 0.08), 0px 1.56354px 37.2646px rgba(0, 0, 0, 0.0476886), 0px 0.465507px 25.5966px rgba(0, 0, 0, 0.0323114);
+    height: 100%;
+    background: #0000001c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_error h3 {
+    margin: 0 !important;
 }
 
 .pupup_content {
@@ -1562,7 +1575,11 @@ footer .container {
     }
 
     .buy_button{
-        width: 70%;
+        width: 100%;
+    }
+
+    .close_button {
+        width: auto;
     }
 
     .password_chang{
