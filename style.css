@@ -24,6 +24,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+button{
+    cursor: pointer;
+}
+
 html{
     height: 100%;
 }
@@ -423,7 +427,7 @@ h1{
 }
 
 #main_second .container {
-    padding: 135px 20px 0 20px;
+    padding: 155px 20px 0 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -497,7 +501,7 @@ h1{
 }
 
 .advantages_item {
-    width: 20%;
+    width: 24%;
     display: flex;
     flex-direction: column;
 }
@@ -717,6 +721,9 @@ footer .container {
 }
 
 .balance_info_footer_item_key {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -784,11 +791,13 @@ footer .container {
 
 .sum{
     grid-column: 8;
+    font-weight: bold !important;
 }
 
 .table_title {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
+    font-size: 16px;
     font-weight: 600;
     line-height: 140%;
     color: #2E3942;
@@ -798,6 +807,7 @@ footer .container {
 .table_value {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
+    font-size: 16px;
     font-weight: normal;
     line-height: 140%;
     color: #2E3942;
@@ -1194,6 +1204,30 @@ footer .container {
 }
 
 @media screen and (max-width: 1120px) {
+    .header_content{
+        flex-direction: column;
+    }
+
+    #transactions_history .header_container {
+        padding: 0 20px 90px 20px;
+    }
+
+    .balance_info_head{
+        margin: 30px auto 0 auto;
+        width: 50%;
+    }
+
+    .balance_info_footer{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .transactions_list {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .pupup_content{
         width: 50%;
     }
@@ -1343,6 +1377,14 @@ footer .container {
 }
 
 @media screen and (max-width: 770px) {
+    .balance_info_head{
+        width: 70%;
+    }
+
+    .balance_info_footer{
+        width: 70%;
+    }
+
     .buy_button_desktop{
         display: none;
     }
@@ -1418,6 +1460,40 @@ footer .container {
 }
 
 @media screen and (max-width: 425px) {
+    .list{
+        width: 100%;
+    }
+
+    .table_header{
+        display: none !important;
+    }
+
+    .table{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table_row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time{
+        margin-bottom: 10px;
+    }
+
+    .event{
+        margin-bottom: 10px;
+    }
+
+    .balance_info_head{
+        width: 100%;
+    }
+
+    .balance_info_footer{
+        width: 100%;
+    }
+
     .inputs_button{
         flex-direction: column;
     }
