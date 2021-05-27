@@ -91,7 +91,6 @@ header {
 }
 
 nav {
-    margin-right: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,8 +113,24 @@ nav {
 }
 
 .log_in{
+    margin-left: 25%;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.header_logo_nav{
+    display: flex;
+    justify-content: space-between;
 }
 
 .login_button{
@@ -358,10 +373,11 @@ h1{
 
 .lost_for_price_up, .lost{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .num {
+    margin-right: 10px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -415,7 +431,7 @@ h1{
 
 .line {
     margin-left: 20px;
-    width: 65%
+    width: 75%
 }
 
 #main_second{
@@ -1106,7 +1122,7 @@ footer .container {
     background: rgba(25, 44, 52, 0.6);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-cont: center;
 }
 
 .popup_error{
@@ -1305,7 +1321,7 @@ footer .container {
 
 @media screen and (max-width: 900px) {
     .hamburger{
-        top: 30px;
+        top: 23px;
         right: 0;
         display: block !important;
     }
@@ -1656,7 +1672,7 @@ footer .container {
     }
 
     .main_content {
-        padding: 0 20px 50px 20px;
+        padding: 30px 20px 50px 20px;
     }
 
     .invest {
@@ -1715,10 +1731,6 @@ footer .container {
 
     .conditions_info p {
         font-size: 16px;
-    }
-
-    .logo img {
-        width: 50%;
     }
 
     .buy_options_mobile {
@@ -1934,7 +1946,6 @@ input[type="checkbox"] {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     cursor: pointer;
-    width: 50px;
 }
 
 .line-1, .line-2, .line-3{
