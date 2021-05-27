@@ -1197,6 +1197,35 @@ footer .container {
     width: auto;
 }
 
+.password_view_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.not_view_password{
+    display: none;
+}
+
+.view_password button{
+    background: none;
+    border: none;
+    position: unset;
+}
+
+.view_password button:active{
+    display: none;
+}
+
+.password_view_block input{
+    width: 95% !important;
+}
+
+.password_view_label{
+    display: flex;
+}
+
+
 @media screen and (max-width: 1440px){
     .options_info {
         top: 60px;
